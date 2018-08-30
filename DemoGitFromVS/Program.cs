@@ -11,7 +11,9 @@ namespace DemoGitFromVS
         static void Main(string[] args)
         {
             var saludo = new Saludo();
-            Console.WriteLine(saludo.Mensaje);
+            Console.Write(saludo.Mensaje);
+
+            Console.Read();
         }
     }
 }
